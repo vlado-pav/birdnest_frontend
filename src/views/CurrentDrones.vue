@@ -1,7 +1,8 @@
 <template>
     <div class="wrapper">
         <h1>Current drones in the area</h1>
-        <p>List of drones now seen the sensor</p>
+        <p>List of drones now seen by the sensor</p>
+        <p>Red outline = violating NDZ, empty list means no drones on radar at the moment</p>
         
         <transition-group name="list" class="list" tag="ul">
             <li v-for="drone in drones" :key='drone.serialNumber' :class="{violating: this.getDistance(drone)<=100}">
