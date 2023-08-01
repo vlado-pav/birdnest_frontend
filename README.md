@@ -1,29 +1,7 @@
-# birdnest_client
+# birdnest_frontend
 
-This template should help get you started developing with Vue 3 in Vite.
+frontend part of the birdnest project
 
-## Recommended IDE Setup
+never deployed for production, so get request are set on localhost... 
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
+see list_of_pilots.png for preview of how it looks like on local machine
